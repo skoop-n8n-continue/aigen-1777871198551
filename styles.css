@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #0a1a0a; /* Dark green-black background */
+    background-color: #1a1a0a; /* Dark yellow-black background */
     color: #ffffff; /* Light text */
     height: 100vh;
     width: 100vw;
@@ -20,24 +20,24 @@ body {
     text-align: center;
     padding: 3rem;
     border-radius: 1.5rem;
-    background: rgba(46, 204, 113, 0.05);
-    border: 1px solid rgba(46, 204, 113, 0.2);
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(46, 204, 113, 0.1);
+    background: rgba(241, 196, 15, 0.05);
+    border: 1px solid rgba(241, 196, 15, 0.2);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(241, 196, 15, 0.1);
 }
 
 h1 {
     font-size: 5rem;
-    color: #2ecc71; /* Vibrant Green */
+    color: #f1c40f; /* Vibrant Yellow */
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     animation: fadeInScale 1.5s ease-out;
-    text-shadow: 0 0 20px rgba(46, 204, 113, 0.5);
+    text-shadow: 0 0 20px rgba(241, 196, 15, 0.5);
 }
 
 .subtitle {
     font-size: 1.5rem;
-    color: #7fa37f; /* Warm gray with green tint */
+    color: #a3a37f; /* Warm gray with yellow tint */
     opacity: 0;
     animation: fadeIn 1s ease-out 0.5s forwards;
 }
